@@ -23,6 +23,8 @@ npx multiply
 
 npm i prompt-sync
 
+npm i random-int
+
 8)create or login your npm account
 
 npm login
