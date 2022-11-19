@@ -8,11 +8,13 @@ let choices = ["rock","paper","scissors"];
 let userprompt  = "enter 0 for rock , 1 for paper and 2 for scissors : ";
 let outcome = "nothing yet";
 
+
+do{
 //computer chooses random number from 0 to 2
 let computer_choice = randomInteger(0,2);
 //variable computer_choice read indexs of choices to randomly choice an index 0 to 2
 computer_choice = choices[computer_choice];
-do{
+
 //prompt the user for an input 
 const prompt = PromptSync();
 //storing variable user prompt text to show up as input choice
