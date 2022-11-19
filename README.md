@@ -23,6 +23,13 @@ Test package locally :
 #! /usr/bin/env node
 
 
+Add Dependencies : 
+
+npm i prompt-sync
+
+npm i random-int
+
+
 create or login your npm account
 
 npm login
